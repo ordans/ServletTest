@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div class="register-box">
+    <h2>用户注册</h2>
+    <form action="/ServletDemo/registerServlet" method="post">
+        <div class="user-box">
+            <input type="text" name="username" required="" id="username">
+            <label>用户名</label>
+        </div>
+<!--        <div class="user-box">-->
+<!--            <input type="email" name="" required="">-->
+<!--            <label>邮箱</label>-->
+<!--        </div>-->
+        <div class="user-box">
+            <input type="password" name="password" required="" id="password">
+            <label>密码</label>
+        </div>
+<!--        <div class="user-box">-->
+<!--            <input type="password" name="" required="">-->
+<!--            <label>确认密码</label>-->
+<!--        </div>-->
+        <button class="button" type="submit">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            注册
+        </button>
+        <div class="login-box">
+            <span>已有账号？</span>
+            <a href="login.html">登录</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>
